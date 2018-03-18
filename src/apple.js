@@ -12,8 +12,9 @@ export default class Apple {
 
     isOnSnake(snakeToCheck) {
         let isOnSnake = false;
-        console.log(snakeToCheck);
+        console.log(snakeToCheck.body);
         for (let block of snakeToCheck.body){
+            console.log(`${block[0]} ${block[1]}`);
             if(this.position[0] === block[0] && this.position[1] === block[1]){
                 isOnSnake = true;
             }
