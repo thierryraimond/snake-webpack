@@ -1,4 +1,4 @@
-# le jeu du snake
+# Snake game
 
 javascript ES6 with Webpack
 

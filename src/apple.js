@@ -13,7 +13,7 @@ export default class Apple {
     isOnSnake(snakeToCheck) {
         let isOnSnake = false;
         console.log(snakeToCheck);
-        for (let block of snakeToCheck){
+        for (let block of snakeToCheck.body){
             if(this.position[0] === block[0] && this.position[1] === block[1]){
                 isOnSnake = true;
             }
