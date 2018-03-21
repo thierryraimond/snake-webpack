@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack-dev-server",
-    "karma": "karma start"
+    "karma": "karma start",
+    "jsdoc-all": "jsdoc src/*.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "jasmine-core": "^3.1.0",
+    "jsdoc": "^3.5.5",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-firefox-launcher": "^1.1.0",
